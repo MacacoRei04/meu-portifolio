@@ -1,1 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+    --cor-principal: rgb(137, 12, 174);
+    --cor-secundaria: rgba(255, 255, 255, 0.834);
+    --cor-destaque: rgb(0, 0, 0);
+}
+
+.body {
+    font-family: 'Outfit', sans-serif;
+}
+
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 400;
+}
+
+footer {
+    color: var(--cor-destaque);
+} 
 
